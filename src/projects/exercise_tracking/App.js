@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import 'typeface-roboto';
-import { Header, Footer } from '../Layouts'
-import Exercises from '../Exercises'
+import { Header, Footer } from './Layouts'
+import Exercises from './components/Exercises'
 
 
 
