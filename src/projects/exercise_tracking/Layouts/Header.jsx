@@ -20,7 +20,7 @@ const styles = {
 function Header(props) {
   const { classes } = props;
   return (
-    <AppBar position="static">
+    <AppBar position="sticky">
         <Toolbar>
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />
